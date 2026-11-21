@@ -4,6 +4,8 @@
 
 A small GNOME Shell extension that shows one dhikr at a time in the top bar.
 
+![Dhikr Bar in the top bar](docs/screenshot.png)
+
 - Dhikr are shown in English, one after another (in order or random).
 - Settings: add, edit and delete dhikr; change the interval (default 30 s); choose left / center / right; limit the length.
 - Works on GNOME Shell 50. Update `shell-version` in `metadata.json` for other versions.

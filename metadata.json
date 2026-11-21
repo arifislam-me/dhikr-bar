@@ -1,0 +1,8 @@
+{
+  "uuid": "dhikr-bar@arif-islam",
+  "name": "Dhikr Bar",
+  "description": "Shows a rotating dhikr in the top bar. Add, edit and delete your own dhikr list in the settings and choose whether it sits on the left, center or right.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.dhikr-bar",
+  "version": 1
+}

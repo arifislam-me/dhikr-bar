@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.dhikr-bar" path="/org/gnome/shell/extensions/dhikr-bar/">
+
+    <key name="dhikr-list" type="as">
+      <default>['SubhanAllah', 'Alhamdulillah', 'Allahu Akbar', 'Astaghfirullah', 'La ilaha illallah', 'Allahumma salli ala Muhammad']</default>
+      <summary>Dhikr list</summary>
+      <description>The phrases shown in the top bar, one after another.</description>
+    </key>
+
+    <key name="interval" type="i">
+      <range min="5" max="3600"/>
+      <default>30</default>
+      <summary>Seconds between changes</summary>
+      <description>How long each dhikr stays in the top bar.</description>
+    </key>
+
+    <key name="order" type="s">
+      <choices>
+        <choice value="sequential"/>
+        <choice value="random"/>
+      </choices>
+      <default>'sequential'</default>
+      <summary>Order</summary>
+      <description>Show the dhikr in list order, or pick a different one at random.</description>
+    </key>
+
+    <key name="position" type="s">
+      <choices>
+        <choice value="left"/>
+        <choice value="center"/>
+        <choice value="right"/>
+      </choices>
+      <default>'left'</default>
+      <summary>Top bar position</summary>
+      <description>Which part of the top bar holds the dhikr.</description>
+    </key>
+
+    <key name="max-length" type="i">
+      <range min="10" max="80"/>
+      <default>30</default>
+      <summary>Maximum characters</summary>
+      <description>Longer phrases are cut with an ellipsis so the top bar does not get pushed around.</description>
+    </key>
+
+  </schema>
+</schemalist>
